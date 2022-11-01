@@ -11,5 +11,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("The error is: " + e);
         }
+        System.out.println(test);
     }
 }
