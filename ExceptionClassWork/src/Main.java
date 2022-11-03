@@ -2,19 +2,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Scanner input = new Scanner(System.in);
-        int[] arr = {1, 2};
-        int x = 0;
         try {
-            System.out.println("Enter a number");
-            x = input.nextInt();
-            System.out.println("The number at spot " + x +  " is: " + arr[x]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Thrown error: " + e);
-        }finally{
-            arr[0] = 6;
-            System.out.println(arr[0] + " Is the first value");
+            int[]a = new int[7];
+            a[8] = 30/2;
+            System.out.println("First print statement in try block");
+        } catch(ArithmeticException e){//ArithmicException
+            System.out.println("Arithmic Exception");
+        }catch(ArrayIndexOutOfBoundsException e){//arrayIndexOutOfBounds
+            System.out.println("ArrayIndexOutOfBoundsException");
+        }catch(Exception e){ //exception
+            System.out.println(e);
         }
-        input.close();
     }
 }
