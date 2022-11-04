@@ -16,9 +16,14 @@ public class Main {
                 }
                 System.out.println(arr[0] + " will be " + (x + 1) +  " one year from now");
                 test = false;
+            } catch(NumberFormatException e){
+                System.out.println("Age must be an integer. You did not type a valid age for " + arr[0] + ". Please try again.");
             } catch (Exception e) { //catches the exception either when the parseint fails or if the age is less than zero
-                System.out.println("You didn't enter a valid age \ntry again");
-            } // have two catches for non positive int and a string for age as well as make a -1 break
+                System.out.println("Can't have a negative age. You did not type a valid age for " + arr[0] + ". Please try again.");
+            }// have two catches for non positive int and a string for age as well as make a -1 break
         }
+        input.close();
     }
 }
+//Can't have a negative age. You did not type a valid age for Dereck. Please try again.
+//Age must be an integer. You did not type a valid age for Dereck. Please try again.

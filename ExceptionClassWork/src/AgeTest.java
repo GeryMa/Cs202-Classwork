@@ -4,13 +4,13 @@ public class AgeTest {
     }
     public static void checkAge(int x){
         try{
-            if(x < 18){
-                throw new Exception();
+            if(x <= 18){
+                throw new ArithmeticException("Access Denied");
             }else{
                 System.out.println("access granted");
             }
         }catch(Exception e){
-            System.out.println("access denied");
+            System.out.println(e);
         }
     }
 }

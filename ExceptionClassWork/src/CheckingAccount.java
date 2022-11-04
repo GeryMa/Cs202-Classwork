@@ -14,11 +14,12 @@ public class CheckingAccount {
     public void deposit(double x){
         balance += x;
     }
-    public double withdraw(double x) throws InsufficientFundsException {
-        if(x < balance){
-            return balance - x;
+    public void withdraw(double x) throws InsufficientFundsException {
+        if(x <= balance){
+            balance -= x;
         }else{
-            return x - balance;
+            double needs = x - balance;
+            throw new InsufficientFundsException(needs);  
         }
     }
 }

@@ -9,7 +9,7 @@ public class Main3 {
           c.withdraw(100.00);
           System.out.println("\nWithdrawing $600...");
           c.withdraw(600.00);
-       } catch (x e) {
+       } catch (InsufficientFundsException e) {
           System.out.println("Sorry, but you are short $" + e.getAmount());
           e.printStackTrace();
        }
