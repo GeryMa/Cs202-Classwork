@@ -18,7 +18,7 @@ public class Main {
                 test = false;
             } catch (Exception e) { //catches the exception either when the parseint fails or if the age is less than zero
                 System.out.println("You didn't enter a valid age \ntry again");
-            } 
+            } // have two catches for non positive int and a string for age as well as make a -1 break
         }
     }
 }
