@@ -1,16 +1,16 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class GUIWindow {
-	
+public class GUIWindow extends JFrame{
+	//the inherited JFrame methods are called directly in this class
 	public static void main (String[] args) {
-		JFrame theGUI = new JFrame();
-		theGUI.setTitle("GUI Program");
-		theGUI.setSize(300,300);
-		theGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		ColorPanel panel = new ColorPanel(Color.GREEN);
-		Container pane = theGUI.getContentPane();
-		pane.add(panel);
-		theGUI.setVisible(true);
+		GUIWindow();
+	}
+	public GUIWindow() { //constructor acts as a method
+		setTitle("GUI Program");
+		setSize(500, 300);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
 	}
 }
