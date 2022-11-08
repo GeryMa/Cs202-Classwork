@@ -19,6 +19,7 @@ public class Problem3 {
             placeNode(t, n);
         }
         System.out.println(t.maxHeight);
+        sc.close();
     }
     public static void placeNode(tree t, Node n){
         Node curr = t.root;
