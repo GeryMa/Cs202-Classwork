@@ -29,5 +29,3 @@ public class GUILabels extends JFrame{
         GUILabels GUIWindow = new GUILabels();
     }
 }
-
-
