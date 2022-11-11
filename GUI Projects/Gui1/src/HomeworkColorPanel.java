@@ -10,7 +10,7 @@ public class HomeworkColorPanel extends JComponent {
         int r2 = 255;
         int tempR;
         Graphics2D graphicsObj = (Graphics2D)g;
-        //the max on the for loop makes it only run 8 times. if i set it to the window size it printed 10 squares
+        //the max on the for loop makes it only run 8 times. if i set it to the window size it printed 10 squares 
         for(int y1 = 0; y1 <= 510; y1 += 70){ // this makes the squares go to the next row goes up by 70 because the squares are 70x70
             for(int x1 = 0; x1 <=510; x1 += 140){ // this sets the x cord for the first color and following colors in the row increments by 140 because i manually add 70 to the other color
                     //this prints the black square
