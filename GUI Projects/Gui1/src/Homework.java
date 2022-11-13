@@ -1,3 +1,5 @@
+//Gary Magill
+//checkerboard project
 import javax.swing.*;
 import java.awt.*;
 public class Homework {
