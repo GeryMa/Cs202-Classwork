@@ -1,10 +1,10 @@
 import javax.swing.JButton;
-import javax.swing.JPanel;
+//import javax.swing.JPanel;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+//import javax.swing.JLabel;
 
 import java.awt.Container;
-import java.awt.BorderLayout;
+//import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.GridLayout;
@@ -12,7 +12,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+//import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 public class PaintingProgram extends JFrame implements MouseMotionListener, ActionListener {
@@ -96,6 +96,6 @@ public class PaintingProgram extends JFrame implements MouseMotionListener, Acti
         // nothing, when the mouse moves who cares
     }
     public static void main(String[] args){
-        PaintingProgram p = new PaintingProgram();
+        //PaintingProgram p = new PaintingProgram();
     }
 }

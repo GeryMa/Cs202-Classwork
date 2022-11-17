@@ -1,5 +1,6 @@
 import java.awt.Container;
 import java.awt.FlowLayout;
+import java.awt.GridLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -20,7 +21,7 @@ public class GUIExample extends JFrame  {
 		JLabel e = new JLabel("fifth");
 		
 		Container pane = this.getContentPane();   //where we will place the labels
-		pane.setLayout(new FlowLayout());   //sets up FlowLayout
+		pane.setLayout(new GridLayout(4,4));   //sets up FlowLayout
 		
 		//add the JLabels
 		pane.add(a);
@@ -36,7 +37,7 @@ public class GUIExample extends JFrame  {
 	public static void main(String[] args)  {
 
 		// Construct the JFrame object
-		//GUIExample window = new GUIExample();
+		GUIExample window = new GUIExample();
 	
 	}
 }

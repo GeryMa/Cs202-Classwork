@@ -1,10 +1,8 @@
 import javax.swing.JFrame;
 import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 import java.awt.Container;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
 import java.awt.event.ActionEvent;
