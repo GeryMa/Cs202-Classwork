@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("\\(\"0_0\")\\");
+        String x = "afasdgf";
+        double y = Double.parseDouble(x);
     }
 }
         /*String[] arr = {"sun", "moon", "saturn", "mercury", "mars", "uranus", "venus", "juptier", "neptune"};

@@ -1,3 +1,5 @@
+//Gary Magill
+//Traffic light program drawing class
 import javax.swing.JComponent;
 import javax.swing.*;
 import java.awt.GridLayout;

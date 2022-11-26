@@ -1,3 +1,5 @@
+//Gary Magill
+//traffic light program
 import javax.swing.*;
 import java.awt.*;
 //drawing things
